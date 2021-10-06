@@ -1,0 +1,10 @@
+a=91
+s="は、素数です”
+for i=2 to (a-1)
+  if a Mod i= 0 then
+    s="は、素数ではありません”
+    exit for 
+End If
+next
+Msgbox Cstr(a) & s
+
